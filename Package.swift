@@ -14,9 +14,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MotionInterchange-Objc",
+            path: "src",
             sources: [
-                "src/*.{h,m,mm}",
-                "src/private/*.{h,m,mm}"
+                "*.{h,m,mm}",
+                "private/*.{h,m,mm}"
             ],
             publicHeadersPath: "src/*.h"),
     ]
