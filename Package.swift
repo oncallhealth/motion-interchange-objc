@@ -19,7 +19,7 @@ let package = Package(
                 "*.{h,m,mm}",
                 "private/*.{h,m,mm}"
             ],
-            publicHeadersPath: "src/*.h"),
+            publicHeadersPath: "*.h"),
     ]
 )
 
