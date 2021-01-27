@@ -15,6 +15,10 @@ let package = Package(
         .target(
             name: "MotionInterchange",
             path: "src",
+            sources: [
+                "*.{h,m,mm}",
+                "private/*.{h,m,mm}"
+            ],
             publicHeadersPath: "*.h"),
     ]
 )
